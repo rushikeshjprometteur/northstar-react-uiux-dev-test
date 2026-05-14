@@ -1,0 +1,27 @@
+{
+  "name": "react-uiux-dev-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Intentionally buggy React UI/UX hiring test project for Upwork candidates.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "echo \"No linter configured on purpose. Candidates should add/fix this.\" && exit 0"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "latest",
+    "typography-stylecss": "latest",
+    "@vitejs/plugin-react": "latest",
+    "autoprefixer": "latest",
+    "clsx": "latest",
+    "lucide-react": "latest",
+    "postcss": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "sass": "latest",
+    "tailwindcss": "latest",
+    "vite": "latest"
+  },
+  "type": "module"
+}
