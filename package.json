@@ -2,26 +2,35 @@
   "name": "react-uiux-dev-test",
   "version": "1.0.0",
   "private": true,
-  "description": "Intentionally buggy React UI/UX hiring test project for Upwork candidates.",
+  "description": "React operations dashboard — UI/UX audit exercise.",
+  "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "echo \"No linter configured on purpose. Candidates should add/fix this.\" && exit 0"
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "latest",
-    "typography-stylecss": "latest",
-    "@vitejs/plugin-react": "latest",
-    "autoprefixer": "latest",
     "clsx": "latest",
     "lucide-react": "latest",
-    "postcss": "latest",
     "react": "latest",
-    "react-dom": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@tailwindcss/postcss": "latest",
+    "@tailwindcss/typography": "latest",
+    "@vitejs/plugin-react": "latest",
+    "autoprefixer": "latest",
+    "eslint": "^9.39.4",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.6.0",
+    "postcss": "latest",
     "sass": "latest",
     "tailwindcss": "latest",
     "vite": "latest"
-  },
-  "type": "module"
+  }
 }
