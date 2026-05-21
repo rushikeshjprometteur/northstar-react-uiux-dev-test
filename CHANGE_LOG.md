@@ -1,12 +1,5 @@
 # Northstar Dashboard — UI/UX Audit Changelog
 
-> **Auditor:** Senior UI/UX & Frontend Developer  
-> **Date:** 22 May 2026  
-> **Scope:** Full audit and remediation of the React + Vite operations dashboard  
-> **Build:** ✅ Clean — `npm run build` (0 errors) · `npm run lint` (0 errors, 0 warnings)
-
----
-
 ## Executive Summary
 
 I audited the Northstar dashboard across all **7 pages**, **3 components**, and the full **CSS + config stack**. The codebase contained **8 critical bugs**, **12 high-priority UX issues**, and **24 medium-priority polish gaps** — all deliberately embedded as real-world anti-patterns.
